@@ -7,7 +7,7 @@
     <title>Desafio do bagulho porra</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
-    
+   
         footer,*{
             padding: 0px;
             margin: 0px;
@@ -23,6 +23,7 @@
        
         body{
             background-color:   #c5ebd5;
+            min-height: 100vh;
             
            
         }
@@ -31,7 +32,7 @@
             background-image: linear-gradient(to top,#1A5C38, #3BD580);
             color: white;
             padding-top: 40px;
-            min-width: 400px;
+            min-width: 414px;
            
         }
         #pri{
@@ -63,8 +64,7 @@
         }
         main{
             border-radius: 0px 0px 10px;
-           
-            min-width: 300px;
+            min-width: 414px;
             max-width: 800px;
             margin: auto;
            
@@ -106,9 +106,10 @@
         
        }
      
-    article{
+    article{ 
         
         max-width: 700px;
+        
         margin: 8px auto;
         border-radius: 10px;
         padding: 0px 20px 10px;
@@ -179,10 +180,14 @@
         min-width: 250px;
         
     }
-    @media screen and (max-width: 415px) {
-        header, main, footer{
+    @media screen and (min-width: 410px)  {
+        
+        main, header, footer{
             width: 100vh;
         }
+               
+            
+        
     }
     
     </style>
