@@ -7,6 +7,7 @@
     <title>Desafio do bagulho porra</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
+    
         footer,*{
             padding: 0px;
             margin: 0px;
@@ -30,11 +31,11 @@
             background-image: linear-gradient(to top,#1A5C38, #3BD580);
             color: white;
             padding-top: 40px;
-            min-width: 300px;
+            min-width: 400px;
            
         }
         #pri{
-            
+            padding-bottom: 40px;
             text-align: center;
             font-family: static;
             
@@ -165,6 +166,7 @@
   
     .img1{
        text-align: center;
+      
     }
     a{
         transition-duration: 0.5s;
@@ -175,7 +177,14 @@
     .nav-item{
         padding-bottom: 20px;
         min-width: 250px;
+        
     }
+    @media screen and (max-width: 415px) {
+        header, main, footer{
+            width: 100vh;
+        }
+    }
+    
     </style>
 </head>
 <body>
@@ -200,8 +209,8 @@
        <h2 class="t2">A primeira versão</h2>
        <p class="text">A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <strong class="verde">Dan Morrill</strong>. Ele conta que abriu o <strong class="verde">Inkscape</strong> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
         <picture>
-            <source media="(max-width: 822px)" srcset="imagens/dan-droids-pq.png">
-            <img src="imagens/dan-droids.png" alt="">
+            <source media=" (max-width: 822px)" srcset="imagens/dan-droids-pq.png">
+            <img class="dan" src="imagens/dan-droids.png" alt="">
         </picture>
         <p class="text">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os <strong class="verde">Dandroids</strong>.</p>
         <h2 class="t2">Surge um novo mascote</h2>
