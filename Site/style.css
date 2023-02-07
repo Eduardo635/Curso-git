@@ -32,7 +32,7 @@ li >a:hover{
     
 }
 .container{
-    padding-top: 30px;
+    padding-top: 50px;
     margin: auto;
     max-width: 500px;
     color: white;
@@ -74,4 +74,20 @@ footer{
 #footer>p{
    
     color: white;
+}
+@media (max-width: 1060px){
+    body{
+        background-size: auto;
+    }
+}
+@media(max-width: 500px){
+    .container{
+        padding-top: 80px;
+        
+        font-family: 'Anton', sans-serif;
+       text-align: justify;
+            }
+      .content{
+        padding-top: 70px;
+      }
 }
